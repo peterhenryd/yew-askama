@@ -1,5 +1,6 @@
 [package]
 name = "yew-askama"
+description = "Create Yew components from Askama templates."
 authors = ["peterhenryd"]
 license-file = "LICENSE"
 keywords = ["yew", "askama", "component", "html"]
