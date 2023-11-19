@@ -1,0 +1,21 @@
+[package]
+name = "yew-askama"
+authors = ["peterhenryd"]
+license-file = "LICENSE"
+keywords = ["yew", "askama", "component", "html"]
+categories = ["template-engine"]
+homepage = "https://github.com/peterhenryd/yew-askama"
+repository = "https://github.com/peterhenryd/yew-askama"
+readme = "README.md"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.69"
+syn = { version = "2.0.39", features = ["full"] }
+quote = "1.0.33"
+askama = "0.12.1"
+yew = "0.21.0"
